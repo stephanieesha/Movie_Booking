@@ -1,0 +1,97 @@
+.container-fluid{
+
+    font-weight: 600;
+        
+    }
+    
+
+.card-body{
+height: 110px;
+}
+
+.card{
+    margin-top: -10px;
+    border-radius: 25px;
+    border: 1.5px solid #A9A9A9;
+    
+}
+
+#movie-button{
+    margin-top: 0px;
+    align-content: center;
+}
+
+
+.btn-primary.btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+    background-color:#BA2032;
+    border-color:#BA2032;
+    border-radius: 12px;
+    width: 200px;
+    margin-top: -20px;
+    
+    
+
+}
+
+.card-footer-transparent{
+    margin-bottom: -20px;
+}
+
+
+#the-nav{
+    height: 50px;
+    
+    
+    }
+    
+    .new-releases{
+        
+        font-weight: 700;
+    }
+    
+    .popular{
+        margin: 30px 0 0 0;
+        
+    }
+    
+    .the-body{
+        margin: 0 150px ;
+        
+    }
+    
+    .new-movies{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 250px;
+        
+            
+    
+    }
+    
+    
+    .card{
+        margin-top: -10px;
+        border-radius: 25px;
+        border: 1.5px solid #A9A9A9;
+        
+    }
+    
+    #movie-button{
+        margin-top: 0px;
+        align-content: center;
+    }
+    
+    
+    .btn-primary{
+        background-color:#BA2032;
+        border-color:#BA2032;
+        border-radius: 12px;
+        width: 200px;
+        margin-top: -20px;
+        
+    
+    }
+    
+    .card-footer-transparent{
+        margin-bottom: -20px;
+    }
