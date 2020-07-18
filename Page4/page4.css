@@ -1,0 +1,39 @@
+
+#summary{
+    background-color: #BA2032;
+    color: white;
+}
+
+.summary-item{
+    margin-top: 30px;
+}
+
+.card-details{
+    padding:50px 20px ;
+}
+.form-control{
+    border:none; /* Get rid of the browser's styling */
+    border-bottom:1px solid black; 
+   
+}
+.card-control{
+    border:none; /* Get rid of the browser's styling */
+    border-bottom:1px solid black; 
+    width: 150px;
+    margin-top: 30px;
+
+}
+
+.btn-primary{
+    background-color:#BA2032 !important;
+    border-color:#BA2032 !important;
+    border-radius: 12px !important;
+    margin-top: 50px;
+    width: 250px;
+    
+
+}
+
+.summary-text{
+    color: white;
+}
