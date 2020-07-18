@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw5T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./page3.css">
+<title>Page3</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="col-xl-12" style="margin-top: 20px;"><h3>MM MOVIE MAGIC</h3></div>
+
+        <div class="col-xl-6 offset-xl-5"><h3>BOOK A TICKET</h3></div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./www1.jpeg" alt="" height="350px" width="350px">
+            </div>
+            <div class="col-md-4">
+                <img src="./www2.jpeg" alt="" height="350px" width="350px">
+            </div>
+            <div class="col-md-4">
+                <img src="./www3.jpeg" alt="" height="350px" width="350px">
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 25px;">
+            <div class="col-xl-8">
+
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="movie">
+                            MOVIE TITLE: 
+                            <span id="the-movie-title" >BLACK WIDOW</span>
+                        </div>
+
+                        <div class="viewing" style="padding-top: 20px ;">
+                            MOVIE VIEWING
+                            <span >  
+                                <select name="format" id="viewing_type" onchange="format_()">
+                                    <option>2D</option>
+                                    <option>3D</option>
+                                    <option>5D</option>
+                                    </select>
+                            </span>
+                        </div>
+
+                        <div class="time" style="padding-top: 20px ;">
+                            MOVIE VIEWING TIME
+                            <span>
+                                <select name="time" id="viewing-time" onchange="time_()">
+                                <option>8:55am</option>
+                                <option>12:15pm</option>
+                                <option>4:45pm</option>
+                                <option>7:25pm</option>
+                                </select>
+                            </span>
+                        </div>
+
+                        <div class="theater" style="padding-top: 20px ;">
+                            THEATER
+                            <span>
+                                <select name="the_theater" id="theater" onchange="theater_()">
+                                <option>Theater A</option>
+                                <option>Theater B</option>
+                                <option>Theater C</option>
+                                <option>Theater D</option>
+                                </select>
+                            </span>
+                        </div>
+                </div>
+
+                <div class="col-xl-6">
+                
+                    <div class="row">
+                    
+                        <span class="card-details"><h6>CARD NUMBER</h6>
+                            <input type="text"class="card-control" style="width: 300px;">
+                        </span>
+                        <span class="card-details"><h6>MONTH</h6>
+                            <input type="text"class="card-control" >
+                        </span>
+                        <span class="card-details" ><h6>YEAR</h6>
+                            <input type="text" class="card-control">
+                        </span>
+                        <span class="card-details">
+                            <h6>CVV</h6>
+                            <input type="text" class="card-control">
+                        </span>
+                        <span><a href="#" class="btn btn-primary" style="width: 100px; margin-top: 20px;">Submit</a></span>
+
+                    </div>
+                </div>
+                
+            </div>
+            <div class="seat" style="padding-top: 20px ;">
+                CHOOSE A SEAT NUMBER
+
+                    <div style="margin-left: 40px;" >
+                    <div style="margin:0 0 20px 20px;">
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="a">
+                        <label for="a" class="seat_num" value="1">1</label>
+
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="b" >
+                        <label for="b" class="seat_num">2</label>
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="c" > 
+                        <label for="c" class="seat_num">3</label>
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="d" >
+                        <label for="d" class="seat_num">4</label> 
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="e" >
+                        <label for="e" class="seat_num">5</label> 
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="f" >
+                        <label for="f" class="seat_num">6</label>
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="g" >
+                        <label for="g" class="seat_num">7</label> 
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="h" >
+                        <label for="h" class="seat_num">8</label> 
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="i" >
+                        <label for="i" class="seat_num">9</label> 
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="j" >
+                        <label for="j" class="seat_num">10</label>
+                    </div>
+                    
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="k" >
+                        <label for="k" class="seat_num">11</label>
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="l" >
+                        <label for="l" class="seat_num">12</label>
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="m" >
+                        <label for="m" class="seat_num">13</label> 
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="n" >
+                        <label for="n" class="seat_num">14</label> 
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="o" >
+                        <label for="o" class="seat_num">15</label> 
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="p" >
+                        <label for="p" class="seat_num">16</label>
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="q" >
+                        <label for="q" class="seat_num">17</label> 
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="r" >
+                        <label for="r" class="seat_num">18</label> 
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="s" >
+                        <label for="s" class="seat_num">19</label> 
+                        
+                        <input type="radio" onclick="price_functions()" class="seat-number2" name="t" >
+                        <label for="t" class="seat_num">20</label>
+                
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4">
+            <div id="example">
+                <div  id="print_area">
+
+                    <div>PRICE<h5 id="price">4000</h5></div>
+                    <div><h5 id="price">NAME: BLACK WIDOW</h5></div>
+
+                    <div class="total" >TOTAL:
+                        <span id="total_price" class="ticket_output" >  </span>
+                    </div>
+                    <div class="total">TIME:
+                        <span id="total_time" class="ticket_output">  </span>
+                    </div>
+                    <div class="total">THEATER:
+                        <span id="total_theater" class="ticket_output">  </span>
+                    </div>
+                    <div class="total">SEAT NUMBER:
+                        <span id="total_seat" class="ticket_output">  </span>
+                    </div>
+                    <div class="total">VIEWING FORMAT:
+                        <span id="total_format" class="ticket_output">  </span>
+                    </div>
+                </div>
+        
+
+
+                <div class="get-tickets" style="margin-top: 30px;" onclick="print_ticket()">
+                    
+                    <input type='button' class="btn btn-primary" value='Print Ticket' onclick='printDiv(example);' />
+                </div>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script type="text/javascript" src="./page3.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0w5" crossorigin="anonymous"></script>
+</body>
+</html>
