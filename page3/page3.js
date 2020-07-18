@@ -28,16 +28,16 @@ function quantity(){
      //get seat number
      var seat = document.getElementsByClassName('seat_number2');
      if(seat.checked){
-        alert("no");
+        
         }
     else{
-        alert('ys');
+    
         seat.reduce(x=> {
-            alert('yes');
+            
             x.checked ;
             }),[0]
         var out = document.getElementById('total_seat');
-        alert(out);
+       
         out.innerText= x.nextElementSibling.innerText;
         
         
